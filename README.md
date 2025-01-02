@@ -14,10 +14,10 @@ Rag-Vector-DB/
 ├── assets/                  # Datasets and reference materials
 │   └── RPP_Dataset - Copy.xlsx
 ├── DB_Storage/              # Vector storage and indices
-│   ├── content.json         # Automatically generated
-│   ├── vectors.hnsw         # Automatically generated
-│   ├── vectors.index        # Automatically generated
-│   └── vectors_hnswlib.bin  # Automatically generated
+│   ├── content.json         # Automatically generated while running "vectorDB.py"
+│   ├── vectors.hnsw         # Automatically generated while running "vectorDB.py"
+│   ├── vectors.index        # Automatically generated while running "vectorDB.py"
+│   └── vectors_hnswlib.bin  # Automatically generated while running "vectorDB.py"
 ├── src/                     # Source code
 │   ├── app.py               # Main application file
 │   ├── model.py             # RAG model logic

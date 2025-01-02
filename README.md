@@ -9,26 +9,6 @@ Features:
 2.Uses a database of ethnoveterinary practices for remedies.
 3.Easy-to-use web interface for non-technical users.
 
-Folder Structure:
-Rag-Vector-DB/
-├── assets/                  # Datasets and reference materials
-│   └── RPP_Dataset - Copy.xlsx
-├── DB_Storage/              # Vector storage and indices
-│   ├── content.json
-│   ├── vectors.hnsw
-│   ├── vectors.index
-│   └── vectors_hnswlib.bin
-├── src/                     # Source code
-│   ├── app.py               # Main application file
-│   ├── model.py             # RAG model logic
-│   ├── vectorDB.py          # Vector database handler
-│   ├── chatbot_errors.log   # Log file for errors
-│   └── templates/           # HTML templates for web interface
-│       └── index.html
-├── .gitattributes           # Git attributes file
-├── README.md                # Project documentation
-└── requirements.txt         #requirements to be installed
-
 Dataset:
 Location: assets/RPP_Dataset - Copy.xlsx
 Description: Contains information on various animal diseases, symptoms, herbal remedies, and treatments.

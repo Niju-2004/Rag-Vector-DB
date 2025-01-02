@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinary Chatbot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 800px;
+            overflow-y: auto;
+            height: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+        h1 {
+            color: #333;
+        }
+        textarea {
+            width: 100%;
+            height: 100px;
+            margin-top: 10px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .response {
+            margin-top: 10px;
+            color: #333;
+            background: #e9f7ef;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: left;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            width: 100%;
+        }
+        .query-response {
+            margin-top: 10px;
+            text-align: left;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="chat-container">
+        <h1>Veterinary Chatbot</h1>
+        <p>Ask any veterinary-related question below:</p>
+        <div id="conversation"></div>
+        <textarea id="user-query" placeholder="Type your question here..."></textarea><br>
+        <button id="ask-button">Ask</button>
+    </div>
+
+    <script>
+        document.getElementById('ask-button').addEventListener('click', async () => {
+            const userQuery = document.getElementById('user-query').value.trim();
+            const conversationContainer = document.getElementById('conversation');
+            const responseContainer = document.createElement('div');
+            
+            // Clear previous response
+            if (!userQuery) {
+                alert('Please enter a query!');
+                return;
+            }
+
+            // Display user's query
+            const userQueryElement = document.createElement('div');
+            userQueryElement.innerHTML = `<strong>You:</strong> ${userQuery}`;
+            userQueryElement.classList.add('query-response');
+            conversationContainer.appendChild(userQueryElement);
+        
+            try {
+                // Send query to the backend
+                const response = await fetch('/ask', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ query: userQuery }),
+                });
+
+                const data = await response.json();
+                
+                if (response.ok) {
+                    // Display bot's response
+                    const formattedResponse = formatResponse(data.response);
+                    responseContainer.classList.add('response');
+                    responseContainer.innerHTML = `
+                        <strong>Bot:</strong>
+                        <div>${formattedResponse}</div>
+                    `;
+                    conversationContainer.appendChild(responseContainer);
+                } else {
+                    const errorResponse = document.createElement('div');
+                    errorResponse.innerHTML = `<strong>Error:</strong> ${data.response || 'An unknown error occurred.'}`;
+                    conversationContainer.appendChild(errorResponse);
+                }
+        
+            } catch (error) {
+                const errorResponse = document.createElement('div');
+                errorResponse.innerHTML = `<strong>Error:</strong> ${error.message}`;
+                conversationContainer.appendChild(errorResponse);
+            }
+
+            // Keep the textarea visible and clear for the next query
+            document.getElementById('user-query').value = '';
+            document.getElementById('user-query').focus();
+        
+            // Scroll to the bottom to show the latest response
+            conversationContainer.scrollTop = conversationContainer.scrollHeight;
+        });
+        
+        function formatResponse(responseText) {
+            // Replace newline characters with <br> for line breaks
+            let formattedText = responseText.replace(/\n/g, '<br>');
+            
+            // Format bullet points (e.g. * symptom -> <ul><li> symptom </li></ul>)
+            formattedText = formattedText.replace(/\* (.*?)\n/g, '<ul><li>$1</li></ul>');
+            
+            // Convert disclaimers or any important text
+            formattedText = formattedText.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');  // bold text
+            formattedText = formattedText.replace(/([a-zA-Z0-9\s]+)(?=\s*[:])/g, '<strong>$1</strong>'); // text before ":" as bold
+        
+            return formattedText;
+        }
+    </script>
+</body>
+</html>

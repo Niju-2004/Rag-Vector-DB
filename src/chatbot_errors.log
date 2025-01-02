@@ -1,0 +1,330 @@
+ERROR:root:Error generating content with OpenAI: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+ERROR:root:Error generating content with OpenAI: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+ERROR:root:Error generating content with OpenAI: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+ERROR:root:Error generating content with OpenAI: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+ERROR:root:Error generating content with OpenAI: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+ERROR:root:Error generating content with OpenAI: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+ERROR:root:Error generating content with OpenAI: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+ERROR:root:Error generating content with OpenAI: Incorrect API key provided: your-def********-key. You can find your API key at https://platform.openai.com/account/api-keys.
+ERROR:root:Error generating content with OpenAI: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+ERROR:root:Error generating content with OpenAI: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+ERROR:root:Error generating content with OpenAI: You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+ERROR:root:Error generating content with Gemini: HTTPSConnectionPool(host='gemini-api.example.com', port=443): Max retries exceeded with url: /generate (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001FE75DCFF80>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+ERROR:root:Error generating content with Gemini: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Error generating content with Gemini: Expecting value: line 1 column 1 (char 0)
+ERROR:root:Error generating content with Gemini: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+ERROR:root:Error generating content with Gemini: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+ERROR:root:Error generating content with Gemini: 
+  No API_KEY or ADC found. Please either:
+    - Set the `GOOGLE_API_KEY` environment variable.
+    - Manually pass the key with `genai.configure(api_key=my_api_key)`.
+    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information.
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 892-769-483
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 15:54:20] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 15:54:20] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 15:54:21] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 15:54:21] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=vbg1YdPzIjCFXFz6r1jt HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 15:54:21] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 892-769-483
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 15:59:45] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 15:59:45] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 15:59:45] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 15:59:45] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=reoPjpcaqA9PMA0Hl2Zn HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 15:59:48] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 15:59:48] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 15:59:48] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 15:59:48] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=reoPjpcaqA9PMA0Hl2Zn HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 15:59:48] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 15:59:48] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 15:59:48] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 15:59:48] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 15:59:48] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=reoPjpcaqA9PMA0Hl2Zn HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 15:59:48] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 15:59:48] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 15:59:48] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 15:59:48] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 15:59:48] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=reoPjpcaqA9PMA0Hl2Zn HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 15:59:48] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 892-769-483
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 16:04:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 16:04:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 16:04:40] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 16:04:41] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\model.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\model.py', reloading
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 892-769-483
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 16:11:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 16:11:26] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 16:11:29] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 16:12:05] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Dec/2024 16:12:08] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 892-769-483
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 17:43:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 17:43:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 17:45:19] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\flask\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\flask\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\flask\\templating.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\jinja2\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\jinja2\\environment.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 892-769-483
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 17:47:56] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 17:48:03] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 17:48:04] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 892-769-483
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 18:03:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 18:04:20] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 18:05:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 18:05:47] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 892-769-483
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 18:32:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 18:32:51] "[33mGET /up-arrow.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 18:34:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 18:34:44] "[33mGET /up-arrow.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 18:34:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 18:34:57] "[33mGET /up-arrow.png HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 892-769-483
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 18:40:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 892-769-483
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 18:43:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\transformers\\tokenization_utils_base.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 892-769-483
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 892-769-483
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 18:57:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\torch\\_dynamo\\config.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\torch\\_functorch\\config.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\torch\\_inductor\\test_operators.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\torch\\distributed\\_functional_collectives.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\torch\\distributed\\tensor\\_collective_utils.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 892-769-483
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 18:57:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 18:57:50] "[33mGET /up-arrow.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 18:58:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\torch\\distributed\\_composable\\fsdp\\_fsdp_param.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\torch\\distributed\\_composable\\fsdp\\_fsdp_collectives.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 892-769-483
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 18:58:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 18:59:25] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:01:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:01:54] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:02:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:03:10] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:06:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:06:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:06:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:06:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:07:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:07:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:07:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:07:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:09:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:09:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:09:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:09:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:09:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:10:03] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:14:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:14:23] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:19:09] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:19:57] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:22:44] "POST /ask HTTP/1.1" 200 -
+ERROR:root:Error generating content with Gemini: ("Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 3. The candidate's safety_ratings are: [category: HARM_CATEGORY_SEXUALLY_EXPLICIT\nprobability: NEGLIGIBLE\n, category: HARM_CATEGORY_HATE_SPEECH\nprobability: NEGLIGIBLE\n, category: HARM_CATEGORY_HARASSMENT\nprobability: NEGLIGIBLE\n, category: HARM_CATEGORY_DANGEROUS_CONTENT\nprobability: MEDIUM\n].", [category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+probability: NEGLIGIBLE
+, category: HARM_CATEGORY_HATE_SPEECH
+probability: NEGLIGIBLE
+, category: HARM_CATEGORY_HARASSMENT
+probability: NEGLIGIBLE
+, category: HARM_CATEGORY_DANGEROUS_CONTENT
+probability: MEDIUM
+])
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:24:23] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:26:25] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:27:11] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:38:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:38:32] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:38:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:39:08] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:39:51] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:41:06] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Dec/2024 19:44:00] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 892-769-483
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2025 05:30:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2025 05:30:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2025 05:30:45] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2025 05:31:40] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2025 05:32:26] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2025 05:33:03] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2025 05:33:38] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.208.211:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 892-769-483
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2025 06:14:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2025 06:14:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2025 06:14:46] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://172.16.3.212:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 892-769-483
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://172.16.3.212:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 892-769-483
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2025 11:31:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Jan/2025 11:31:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\transformers\\tokenization_utils_base.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 892-769-483

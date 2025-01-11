@@ -346,3 +346,65 @@ INFO:werkzeug:127.0.0.1 - - [02/Jan/2025 13:49:07] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [02/Jan/2025 13:49:09] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [02/Jan/2025 13:49:09] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [02/Jan/2025 13:49:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://172.16.2.73:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 892-769-483
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 09:56:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 09:56:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\transformers\\tokenization_utils_base.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 892-769-483
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\torch\\_dynamo\\config.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\torch\\_functorch\\config.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 892-769-483
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://172.16.2.73:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 892-769-483
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 10:23:02] "GET / HTTP/1.1" 200 -
+ERROR:root:Error generating content with Gemini: Timeout of 600.0s exceeded, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv4:172.217.31.202:443: socket is null
+INFO:werkzeug:127.0.0.1 - - [04/Jan/2025 10:33:17] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.137.216:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 892-769-483
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2025 10:01:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2025 10:01:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2025 10:02:25] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2025 10:03:19] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.137.216:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 892-769-483
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2025 10:40:30] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2025 10:41:07] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.137.216:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 892-769-483
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2025 11:49:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jan/2025 11:50:26] "POST /ask HTTP/1.1" 200 -

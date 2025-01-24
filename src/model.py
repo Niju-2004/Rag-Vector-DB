@@ -9,7 +9,7 @@ import sys
 
 logging.basicConfig(level=logging.ERROR, filename="chatbot_errors.log")
 
-api_key = "AIzaSyB0ThmyIFEC5H3XdpKjsAs2I0-4g8tgOrs"
+api_key = "hasdfghjkoijhvergnuygfd"
 genai.configure(api_key=api_key)
 generation_config = {
     "temperature": 0.9,

@@ -12,7 +12,7 @@ import asyncio
 logging.basicConfig(level=logging.ERROR, filename="chatbot_errors.log")
 
 
-api_key = "hasdfghjkoijhvergnuygfdkoihgfxdzsdxfcgvhbnm,"
+api_key = "hasdfghjkoijhvergnuygfdkoihgfxdzsdxfcgvhbn,.,,YYYYUIIIm,"
 
 genai.configure(api_key=api_key)
 generation_config = {

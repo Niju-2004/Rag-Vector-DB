@@ -11,11 +11,9 @@ import asyncio
 
 logging.basicConfig(level=logging.ERROR, filename="chatbot_errors.log")
 
-<<<<<<< HEAD
-api_key = "AIzaSyDi2qr4oWGqnwgQlbqeY9xgd-4R9_o2Myo"
-=======
-api_key = "hasdfghjkoijhvergnuygfd"
->>>>>>> 994542bb863e54f3d290bfe760b0ed9ba1dd9e9d
+
+api_key = "hasdfghjkoijhvergnuygfdkoihgfxdzsdxfcgvhbnm,"
+
 genai.configure(api_key=api_key)
 generation_config = {
     "temperature": 0.9,

@@ -624,3 +624,829 @@ INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\model.py', reloadin
 INFO:werkzeug: * Restarting with watchdog (windowsapi)
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.137.226:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:192.168.137.226 - - [23/Jan/2025 09:12:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.226 - - [23/Jan/2025 09:12:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:root:Error generating content with Gemini: Timeout of 600.0s exceeded, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.250.196.74:443: tcp handshaker shutdown
+INFO:werkzeug:192.168.137.226 - - [23/Jan/2025 09:24:45] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.226 - - [23/Jan/2025 09:47:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.137.226:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:192.168.137.226 - - [23/Jan/2025 15:55:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.226 - - [23/Jan/2025 15:55:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.25 - - [23/Jan/2025 15:56:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.25 - - [23/Jan/2025 15:56:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\transformers\\tokenization_utils_base.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\torch\\_dynamo\\config.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\torch\\_functorch\\config.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\torch\\_inductor\\test_operators.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.137.99:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:192.168.137.99 - - [25/Jan/2025 13:45:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.99 - - [25/Jan/2025 13:45:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.1 - - [25/Jan/2025 13:46:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.1 - - [25/Jan/2025 13:46:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:root:Error generating content with Gemini: ("Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 3. The candidate's safety_ratings are: [category: HARM_CATEGORY_SEXUALLY_EXPLICIT\nprobability: NEGLIGIBLE\n, category: HARM_CATEGORY_HATE_SPEECH\nprobability: NEGLIGIBLE\n, category: HARM_CATEGORY_HARASSMENT\nprobability: NEGLIGIBLE\n, category: HARM_CATEGORY_DANGEROUS_CONTENT\nprobability: MEDIUM\n].", [category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+probability: NEGLIGIBLE
+, category: HARM_CATEGORY_HATE_SPEECH
+probability: NEGLIGIBLE
+, category: HARM_CATEGORY_HARASSMENT
+probability: NEGLIGIBLE
+, category: HARM_CATEGORY_DANGEROUS_CONTENT
+probability: MEDIUM
+])
+INFO:werkzeug:192.168.137.1 - - [25/Jan/2025 13:46:58] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.1 - - [25/Jan/2025 13:47:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.1 - - [25/Jan/2025 13:47:31] "POST /ask HTTP/1.1" 200 -
+ERROR:root:Error generating content with Gemini: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting
+INFO:werkzeug:192.168.137.99 - - [25/Jan/2025 13:48:07] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\model.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\model.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\model.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:192.168.137.99 - - [25/Jan/2025 13:50:13] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.1 - - [25/Jan/2025 13:51:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.1 - - [25/Jan/2025 13:52:16] "POST /ask HTTP/1.1" 200 -
+ERROR:root:Error generating content with Gemini: ("Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 3. The candidate's safety_ratings are: [category: HARM_CATEGORY_SEXUALLY_EXPLICIT\nprobability: NEGLIGIBLE\n, category: HARM_CATEGORY_HATE_SPEECH\nprobability: NEGLIGIBLE\n, category: HARM_CATEGORY_HARASSMENT\nprobability: NEGLIGIBLE\n, category: HARM_CATEGORY_DANGEROUS_CONTENT\nprobability: MEDIUM\n].", [category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+probability: NEGLIGIBLE
+, category: HARM_CATEGORY_HATE_SPEECH
+probability: NEGLIGIBLE
+, category: HARM_CATEGORY_HARASSMENT
+probability: NEGLIGIBLE
+, category: HARM_CATEGORY_DANGEROUS_CONTENT
+probability: MEDIUM
+])
+INFO:werkzeug:192.168.137.1 - - [25/Jan/2025 13:53:29] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.1 - - [25/Jan/2025 13:53:50] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.1 - - [25/Jan/2025 13:54:43] "POST /ask HTTP/1.1" 200 -
+ERROR:root:Error generating content with Gemini: ("Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 3. The candidate's safety_ratings are: [category: HARM_CATEGORY_SEXUALLY_EXPLICIT\nprobability: NEGLIGIBLE\n, category: HARM_CATEGORY_HATE_SPEECH\nprobability: NEGLIGIBLE\n, category: HARM_CATEGORY_HARASSMENT\nprobability: NEGLIGIBLE\n, category: HARM_CATEGORY_DANGEROUS_CONTENT\nprobability: MEDIUM\n].", [category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+probability: NEGLIGIBLE
+, category: HARM_CATEGORY_HATE_SPEECH
+probability: NEGLIGIBLE
+, category: HARM_CATEGORY_HARASSMENT
+probability: NEGLIGIBLE
+, category: HARM_CATEGORY_DANGEROUS_CONTENT
+probability: MEDIUM
+])
+INFO:werkzeug:192.168.137.99 - - [25/Jan/2025 13:56:06] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.99 - - [25/Jan/2025 13:56:41] "POST /ask HTTP/1.1" 200 -
+ERROR:root:Error generating content with Gemini: Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 4. Meaning that the model was reciting from copyrighted material.
+INFO:werkzeug:192.168.137.99 - - [25/Jan/2025 13:57:28] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.99 - - [25/Jan/2025 13:59:06] "[31m[1mPOST /ask HTTP/1.1[0m" 400 -
+INFO:werkzeug:192.168.137.99 - - [25/Jan/2025 14:00:47] "[31m[1mPOST /ask HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\model.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\model.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\model.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.137.99:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:192.168.137.99 - - [25/Jan/2025 14:01:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.99 - - [25/Jan/2025 14:01:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.99 - - [25/Jan/2025 14:01:49] "GET / HTTP/1.1" 200 -
+ERROR:root:Error generating content with Gemini: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+INFO:werkzeug:192.168.137.99 - - [25/Jan/2025 14:02:19] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.99 - - [25/Jan/2025 14:07:20] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.99 - - [25/Jan/2025 14:08:05] "POST /ask HTTP/1.1" 200 -
+ERROR:root:Error generating content with Gemini: 400 API key expired. Please renew the API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key expired. Please renew the API key."
+]
+INFO:werkzeug:192.168.137.99 - - [25/Jan/2025 14:08:42] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.99 - - [25/Jan/2025 14:10:08] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.99 - - [25/Jan/2025 14:11:37] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.99 - - [25/Jan/2025 14:12:21] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\numpy\\typing\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\numpy\\_typing\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\numpy\\_typing\\_array_like.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\numpy\\_typing\\_dtype_like.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\numpy\\_typing\\_shape.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\numpy\\_typing\\_nested_sequence.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\numpy\\_typing\\_scalars.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\numpy\\_utils\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\torch\\_tensor.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:192.168.137.99 - - [25/Jan/2025 14:15:20] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.99 - - [25/Jan/2025 14:15:44] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.157 - - [25/Jan/2025 14:18:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.157 - - [25/Jan/2025 14:18:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.157 - - [25/Jan/2025 14:19:32] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.157 - - [25/Jan/2025 14:20:16] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.157 - - [25/Jan/2025 14:22:08] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.43.40:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:192.168.43.40 - - [26/Jan/2025 22:45:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [26/Jan/2025 22:45:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.43.40 - - [26/Jan/2025 22:46:33] "POST /ask HTTP/1.1" 200 -
+ERROR:root:Error processing query: 'annoy.Annoy' object has no attribute 'knn_query'
+ERROR:root:Error generating content with Gemini: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.137.49:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 09:53:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 09:53:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 09:53:50] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 09:54:47] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 09:55:17] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 09:55:49] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\model.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\model.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\model.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.137.49:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 09:58:28] "GET / HTTP/1.1" 200 -
+ERROR:root:Error generating content with Gemini: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 09:59:11] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\model.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\model.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:01:16] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:04:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:04:54] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:05:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:07:06] "POST /feedback HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:07:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:07:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:07:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:09:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:09:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:09:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:09:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:09:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:09:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:09:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:09:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:09:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:09:42] "POST /feedback HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.137.49:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:18:55] "POST /feedback HTTP/1.1" 200 -
+ERROR:root:Error generating content with Gemini: ("Invalid operation: The `response.text` quick accessor requires the response to contain a valid `Part`, but none were returned. The candidate's [finish_reason](https://ai.google.dev/api/generate-content#finishreason) is 3. The candidate's safety_ratings are: [category: HARM_CATEGORY_SEXUALLY_EXPLICIT\nprobability: NEGLIGIBLE\n, category: HARM_CATEGORY_HATE_SPEECH\nprobability: NEGLIGIBLE\n, category: HARM_CATEGORY_HARASSMENT\nprobability: NEGLIGIBLE\n, category: HARM_CATEGORY_DANGEROUS_CONTENT\nprobability: MEDIUM\n].", [category: HARM_CATEGORY_SEXUALLY_EXPLICIT
+probability: NEGLIGIBLE
+, category: HARM_CATEGORY_HATE_SPEECH
+probability: NEGLIGIBLE
+, category: HARM_CATEGORY_HARASSMENT
+probability: NEGLIGIBLE
+, category: HARM_CATEGORY_DANGEROUS_CONTENT
+probability: MEDIUM
+])
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:19:57] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.137.49:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:27:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:27:52] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:27:52] "[33mGET /scripts.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:28:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:28:15] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:28:15] "[33mGET /scripts.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:28:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:28:16] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:28:16] "[33mGET /scripts.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:28:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:28:17] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:28:17] "[33mGET /scripts.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:28:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:28:17] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:28:17] "[33mGET /scripts.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:28:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:28:17] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:28:17] "[33mGET /scripts.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:28:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:28:56] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:28:56] "[33mGET /scripts.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:28:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:28:57] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:28:57] "[33mGET /scripts.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:28:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:28:57] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:28:57] "[33mGET /scripts.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:28:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:28:58] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:28:58] "[33mGET /scripts.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:28:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:28:58] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:28:58] "[33mGET /scripts.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.137.49:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:29:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:29:26] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:29:26] "[33mGET /scripts.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:29:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:29:29] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:29:29] "[33mGET /scripts.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:29:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:29:29] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:29:29] "[33mGET /scripts.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:29:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:29:29] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:29:29] "[33mGET /scripts.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:29:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:29:29] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:29:29] "[33mGET /scripts.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:29:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:29:29] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:29:29] "[33mGET /scripts.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:29:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:29:29] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:29:29] "[33mGET /scripts.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:29:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:29:30] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:29:30] "[33mGET /scripts.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:29:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:29:30] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:29:30] "[33mGET /scripts.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:29:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:29:30] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:29:30] "[33mGET /scripts.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:30:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:30:19] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:30:19] "[33mGET /scripts.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:30:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:30:19] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:30:19] "[33mGET /scripts.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:30:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:30:19] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:30:19] "[33mGET /scripts.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:30:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:30:19] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:30:19] "[33mGET /scripts.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:30:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:30:20] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:30:20] "[33mGET /scripts.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:30:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:30:20] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:30:20] "[33mGET /scripts.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:30:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:30:20] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:30:20] "[33mGET /scripts.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:30:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:30:20] "[33mGET /styles.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:30:20] "[33mGET /scripts.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.137.49:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:34:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:34:05] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:34:05] "GET /static/scripts.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:34:31] "POST /feedback HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:34:42] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:36:22] "POST /feedback HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:36:48] "POST /feedback HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [27/Jan/2025 10:37:07] "POST /feedback HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://172.16.5.215:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 11:20:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 11:20:29] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 11:20:29] "GET /static/scripts.js HTTP/1.1" 200 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 11:20:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 11:21:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 11:21:07] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 11:21:07] "GET /static/scripts.js HTTP/1.1" 200 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 11:21:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 11:21:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 11:21:08] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 11:21:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 11:21:09] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 11:21:09] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://172.16.5.215:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 11:43:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 11:43:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 11:43:06] "GET /static/scripts.js HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://172.16.5.215:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 11:47:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 11:47:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 11:47:51] "GET /static/scripts.js HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://172.16.5.215:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 12:33:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 12:33:18] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 12:33:18] "GET /static/scripts.js HTTP/1.1" 200 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 12:33:18] "GET /static/Untitled%20design.png HTTP/1.1" 200 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 12:34:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 12:34:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 12:34:24] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 12:37:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 12:37:19] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 12:37:19] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 12:37:19] "[36mGET /static/Untitled%20design.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://172.16.5.215:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 13:35:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 13:35:59] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 13:35:59] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 13:35:59] "[36mGET /static/Untitled%20design.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 13:35:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\transformers\\tokenization_utils_base.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 13:50:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 13:50:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 13:50:00] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 13:50:00] "[36mGET /static/Untitled%20design.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 13:50:02] "[33mGET /switch_language/ta HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 13:50:12] "[33mGET /switch_language/ta HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 13:50:15] "[33mGET /switch_language/ta HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 13:50:18] "[33mGET /switch_language/ta HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 13:50:20] "[33mGET /switch_language/ta HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 13:50:50] "[33mGET /switch_language/ta HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 13:51:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 13:51:08] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 13:51:08] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 13:51:08] "[36mGET /static/Untitled%20design.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 13:56:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 13:56:58] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 13:56:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 13:56:58] "[36mGET /static/Untitled%20design.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\vectorDB.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\flask\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\flask\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 14:01:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 14:01:14] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 14:01:14] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 14:01:14] "[36mGET /static/Untitled%20design.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 14:01:17] "[33mGET /switch_language/en HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 14:01:34] "[33mGET /switch_language/en HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 14:01:39] "[33mGET /switch_language/en HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 14:01:45] "[33mGET /switch_language/en HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 14:02:57] "[33mGET /switch_language/en HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://172.16.5.215:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 14:30:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 14:30:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 14:30:49] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 14:30:49] "[36mGET /static/Untitled%20design.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\model.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\model.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\model.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://172.16.5.215:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 14:57:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 14:57:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 14:57:25] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 14:57:25] "[36mGET /static/Untitled%20design.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 14:57:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 14:57:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 14:57:30] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 14:58:42] "[31m[1mPOST /ask HTTP/1.1[0m" 400 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 14:58:43] "[31m[1mPOST /ask HTTP/1.1[0m" 400 -
+ERROR:root:Error processing query: Object of type coroutine is not JSON serializable
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 14:58:49] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://172.16.5.215:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 15:21:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 15:21:19] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 15:21:19] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 15:21:19] "[36mGET /static/Untitled%20design.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://172.16.5.215:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 15:46:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 15:46:30] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 15:46:30] "[36mGET /static/Untitled%20design.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 15:46:30] "GET /static/scripts.js HTTP/1.1" 200 -
+ERROR:root:Error processing query: Object of type coroutine is not JSON serializable
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 15:47:05] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\pathlib.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 15:48:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 15:48:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 15:48:00] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 15:48:00] "[36mGET /static/Untitled%20design.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 16:32:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 16:32:38] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 16:32:38] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 16:32:38] "[36mGET /static/Untitled%20design.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\flask\\typing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\werkzeug\\datastructures\\headers.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 16:35:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 16:35:47] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 16:35:47] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\flask\\globals.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\flask\\wrappers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 16:36:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 16:36:09] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.16.5.215 - - [27/Jan/2025 16:36:09] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.43.40:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 20:48:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 20:48:11] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 20:48:11] "GET /static/scripts.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 20:48:11] "GET /static/Untitled%20design.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 20:48:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\faiss\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\faiss\\loader.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\faiss\\swigfaiss_avx2.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+ERROR:root:Error processing query: Object of type coroutine is not JSON serializable
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 20:49:36] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\flask\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\flask\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\flask\\globals.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\flask\\wrappers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\flask\\templating.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\jinja2\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\jinja2\\environment.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.43.40:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 20:52:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 20:52:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 20:52:48] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 20:52:48] "[36mGET /static/Untitled%20design.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 20:53:14] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 20:54:16] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 20:54:55] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 20:56:32] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 20:57:20] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 20:57:46] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\datetime.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\_pydatetime.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:01:00] "POST /feedback HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:01:21] "POST /feedback HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:01:50] "POST /feedback HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:03:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:03:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:03:43] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:03:43] "[36mGET /static/Untitled%20design.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:06:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:06:53] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:06:53] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:06:53] "[36mGET /static/Untitled%20design.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:09:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:09:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:09:04] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:09:04] "[36mGET /static/Untitled%20design.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:09:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:09:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:09:05] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:10:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:10:43] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:10:43] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:10:43] "[36mGET /static/Untitled%20design.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:10:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:10:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:10:44] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:10:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:10:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:10:45] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:10:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:10:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:10:45] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:10:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:10:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:10:45] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:10:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:10:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:10:46] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:10:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:10:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:10:46] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:10:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:10:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:10:46] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:10:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:10:47] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:10:47] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:10:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:10:47] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:10:47] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:12:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:12:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:12:46] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:12:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:12:47] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:12:47] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:14:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:14:17] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:14:17] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:14:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:14:17] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:14:17] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:14:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:14:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:14:18] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:14:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:14:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:14:18] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:14:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:14:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:14:18] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:14:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:14:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:14:18] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:14:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:14:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:14:18] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:14:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:14:54] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:14:54] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:14:54] "[36mGET /static/Untitled%20design.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:14:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:14:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:14:55] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:15:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:15:22] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:15:22] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:15:22] "[36mGET /static/Untitled%20design.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:15:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:15:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:15:23] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:15:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:15:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:15:23] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:15:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:15:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:15:24] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\app.py', reloading
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:16:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:16:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:16:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:16:00] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:24:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:24:45] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:24:45] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:24:45] "[36mGET /static/Untitled%20design.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:24:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:24:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:24:46] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:24:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:24:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:24:46] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:24:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:24:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:24:52] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:25:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:25:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:25:18] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:25:18] "[36mGET /static/Untitled%20design.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\werkzeug\\datastructures\\structures.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:26:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:26:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:26:31] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:26:31] "[36mGET /static/Untitled%20design.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:27:11] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:27:11] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:27:58] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [27/Jan/2025 21:27:59] "POST /feedback HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.43.40:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:192.168.43.40 - - [28/Jan/2025 07:10:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [28/Jan/2025 07:10:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [28/Jan/2025 07:10:24] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [28/Jan/2025 07:10:24] "[36mGET /static/Untitled%20design.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [28/Jan/2025 07:10:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.43.40 - - [28/Jan/2025 07:12:36] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [28/Jan/2025 07:14:20] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [28/Jan/2025 07:16:33] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [28/Jan/2025 07:17:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [28/Jan/2025 07:17:00] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [28/Jan/2025 07:17:00] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [28/Jan/2025 07:17:00] "[36mGET /static/Untitled%20design.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [28/Jan/2025 07:17:07] "POST /feedback HTTP/1.1" 200 -

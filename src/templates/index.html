@@ -4,99 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Veterinary Chatbot</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-        }
-
-        .chat-container {
-            width: 80%;
-            max-width: 800px;
-            margin: 40px auto; /* Add this line to center the container */
-            background-color: #fff;
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        
-        .chat-header {
-            position: sticky;
-            top: 0;
-            background-color: #007bff;
-            color: #fff;
-            padding: 10px;
-            border-bottom: 1px solid #ddd;
-            text-align: center; /* Add this line to center the header text */
-        }
-
-        .chat-body {
-            padding: 20px;
-        }
-
-        .message-container {
-            padding: 10px;
-        }
-
-        .input-container {
-            padding: 10px;
-            border-top: 1px solid #ddd;
-        }
-
-        #user-input {
-            width: 70%;
-            height: 30px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-
-        #send-button {
-            width: 20%;
-            height: 30px;
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        #send-button:hover {
-            background-color: #0056b3;
-        }
-
-        .user-query {
-            font-weight: bold;
-            color: #007bff;
-        }
-
-        .chatbot-response {
-            margin-top: 10px;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .chatbot-response h2 {
-            margin-top: 0;
-        }
-    </style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
+    <div class="language-switcher">
+        <button id="lang-toggle" class="lang-toggle-button">Tamil</button>
+        <button id="lang-toggle-en" class="lang-toggle-button">English</button>
+    </div>
     <div class="chat-container">
         <div class="chat-header">
-            <h1>Veterinary Chatbot</h1>
+            <h1 id="chat-header-title" style="text-align:center;">Veterinary Chatbot</h1>
         </div>
         <div class="chat-body">
             <div class="message-container" id="message-container">
-                <!-- Messages will be displayed here -->
-                <div class="user-query">User: Hello!</div>
+                <div class="user-query"></div>
                 <div class="chatbot-response">
-                    <h2>Welcome to the Veterinary Chatbot!</h2>
-                    <p>I'm here to help answer your questions about veterinary care. Consult a veterinarian for an accurate diagnosis and proper treatment plan.</p>
+                    <h2 id="welcome-message" style="text-align:center;">Welcome to the Veterinary Chatbot!</h2>
+                    <p id="chatbot-description" style="text-align:center;">I'm here to help answer your questions about veterinary care. Consult a veterinarian for an accurate diagnosis and proper treatment plan.</p>
                 </div>
             </div>
             <div class="input-container">
@@ -105,47 +29,11 @@
             </div>
         </div>
     </div>
-    <script>
-        const messageContainer = document.getElementById('message-container');
-        const userInput = document.getElementById('user-input');
-        const sendButton = document.getElementById('send-button');
-
-        sendButton.addEventListener('click', async () => {
-            const userQuery = userInput.value.trim();
-            if (!userQuery) {
-                alert('Please enter a query!');
-                return;
-            }
-
-            // Display user query
-            const userQueryDiv = document.createElement('div');
-            userQueryDiv.className = 'user-query';
-            userQueryDiv.innerText = `User: ${userQuery}`;
-            messageContainer.appendChild(userQueryDiv);
-
-            // Send query to the backend
-            const response = await fetch('/ask', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({ query: userQuery }),
-            });
-
-            const data = await response.json();
-            const chatbotResponse = data.response.treatment;
-
-            // Display chatbot response
-            const responseDiv = document.createElement('div');
-            responseDiv.className = 'chatbot-response';
-            responseDiv.innerHTML = chatbotResponse
-              .replace(/\*\*(.*?)\*\*/g, '<b>$1</b>') // Convert **text** to <b>text</b>
-              .replace(/\n/g, '<br>'); // Convert newline characters to HTML line breaks
-            messageContainer.appendChild(responseDiv);
-
-            // Clear user input field
-            userInput.value = '';
-        });
-    </script>
+    <div class="feedback-container">
+        <h3 style="text-align:center;">Provide Feedback</h3>
+        <textarea id="feedback-input" placeholder="Enter your feedback here..."></textarea>
+        <button id="feedback-button" style="margin:auto;display:block;">Submit Feedback</button>
+    </div>
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
 </body>
 </html>

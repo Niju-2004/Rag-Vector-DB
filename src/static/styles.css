@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    background-image: url('../static/Untitled design.png'); /* Adjust the path as necessary */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background image fixed */
+}
+
+.chat-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background for better readability */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding-bottom: 80px; /* Add padding to the bottom to account for the fixed feedback container */
+}
+
+.chat-header {
+    position: sticky;
+    top: 0;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.lang-toggle-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.lang-toggle-button:hover {
+    background-color: #3e8e41;
+}
+
+.chat-body {
+    padding: 20px;
+    max-height: calc(100vh - 200px); /* Adjust the max height to account for the fixed feedback container */
+    overflow-y: auto; /* Enable scrolling within the chat body */
+}
+
+.message-container {
+    padding: 10px;
+}
+
+.input-container {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    position: sticky;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background for better readability */
+    width: calc(100% - 20px); /* Adjust the width to account for padding */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow to the input container */
+    display: flex;
+    justify-content: space-between;
+}
+
+#user-input {
+    width: 70%;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#send-button {
+    width: 20%;
+    height: 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#send-button:hover {
+    background-color: #0056b3;
+}
+
+.user-query {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.chatbot-response {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chatbot-response h2 {
+    margin-top: 0;
+}
+
+.feedback-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background for better readability */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensure the feedback container is above other elements */
+    text-align: center;
+}
+
+.feedback-container h3 {
+    margin-top: 0;
+}
+
+.feedback-container textarea {
+    width: 100%;
+    height: 70px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.feedback-container button {
+    width: 100%;
+    height: 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feedback-container button:hover {
+    background-color: #0056b3;
+}
+
+.language-switcher {
+    position: absolute;
+}

@@ -1,15 +1,17 @@
 import os
-import hnswlib
+import faiss
 import numpy as np
 from sentence_transformers import SentenceTransformer
 import json
 import google.generativeai as genai
 import logging
 import sys
+from googletrans import Translator
+import asyncio
 
 logging.basicConfig(level=logging.ERROR, filename="chatbot_errors.log")
 
-api_key = "AIzaSyB0ThmyIFEC5H3XdpKjsAs2I0-4g8tgOrs"
+api_key = "AIzaSyDi2qr4oWGqnwgQlbqeY9xgd-4R9_o2Myo"
 genai.configure(api_key=api_key)
 generation_config = {
     "temperature": 0.9,
@@ -18,7 +20,6 @@ generation_config = {
 }
 
 model = genai.GenerativeModel(model_name="gemini-pro", generation_config=generation_config)
-
 
 def generate_response_with_gemini(query, relevant_content):
     try:
@@ -30,20 +31,15 @@ def generate_response_with_gemini(query, relevant_content):
         logging.error(f"Error generating content with Gemini: {e}")
         return f"Error generating content with Gemini: {e}"
 
-
-def load_hnswlib_index(index_path, dim):
-    """Load HNSWlib index from the given path."""
+def load_faiss_index(index_path):
     try:
-        index = hnswlib.Index(space='cosine', dim=dim)
-        index.load_index(index_path)
+        index = faiss.read_index(index_path)
         return index
     except Exception as e:
-        logging.error(f"Error loading HNSWlib index: {e}")
-        raise RuntimeError(f"Error loading HNSWlib index: {e}")
-
+        logging.error(f"Error loading FAISS index: {e}")
+        raise RuntimeError(f"Error loading FAISS index: {e}")
 
 def load_content(json_path):
-    """Load content from a JSON file."""
     try:
         with open(json_path, 'r', encoding='utf-8') as f:
             return json.load(f)
@@ -51,9 +47,7 @@ def load_content(json_path):
         logging.error(f"Error loading content JSON: {e}")
         raise RuntimeError(f"Error loading content JSON: {e}")
 
-
 def format_retrieved_content(content_item):
-    """Format retrieved content into a meaningful sentence."""
     if isinstance(content_item, dict):
         formatted_content = f"For treating {content_item.get('disease', 'the disease')}, a remedy includes {content_item.get('treatment', 'treatment details')}. "
         formatted_content += f"The recommended dosage is {content_item.get('dosage', 'dosage information')}."
@@ -61,53 +55,57 @@ def format_retrieved_content(content_item):
     else:
         return content_item
 
+async def detect_language(text):
+    translator = Translator()
+    detection = await translator.detect(text)
+    return detection.lang
 
-def query_system(query, model, index, content, top_k=3):
-    """Retrieve and display relevant information for the user's query."""
-    try:
-        # Generate embedding for the query
-        query_embedding = model.encode([query])
-        labels, distances = index.knn_query(query_embedding, k=top_k)
+async def query_system(query, model, index, content):
+    original_query = query
+    # Check if the query is in Tamil
+    lang = await detect_language(query)
+    if lang == 'ta':
+        # Translate the query from Tamil to English
+        translator = Translator()
+        query = await translator.translate(query, dest='en')
+        query = query.text
 
-        # Fetch content from the database using the retrieved labels
-        retrieved_content = []
-        for label in labels[0]:
-            content_item = content.get(str(label), "No relevant context found.")
-            retrieved_content.append(format_retrieved_content(content_item))
+    # Tokenize the query
+    query_embedding = model.encode([query]).astype('float32')
+    D, I = index.search(query_embedding, k=3) # Search for the top 3 nearest neighbors
+    retrieved_content = []
+    for label in I[0]:
+        content_item = content.get(str(label), "No relevant context found.")
+        retrieved_content.append(format_retrieved_content(content_item))
+    combined_content = " ".join(retrieved_content)
+    response = generate_response_with_gemini(query, combined_content)
 
-        # Combine the retrieved content into a single string
-        combined_content = " ".join(retrieved_content)
+    # If the original query was in Tamil, translate the response back to Tamil
+    if lang == 'ta':
+        response = await translator.translate(response, dest='ta')
+        response = response.text
 
-        # Generate a response using the Gemini API
-        return generate_response_with_gemini(query, combined_content)
-
-    except Exception as e:
-        logging.error(f"Error processing query: {e}")
-        return f"Error processing query: {e}"
-
+    return response
 
 def initialize_system():
-    """Initialize the system components (model, content, and index)."""
     sentence_model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
-
-    # File paths
     content_path = r"D:\Rag-Vector-DB\DB_Storage\content.json"
-    index_path = r"D:\Rag-Vector-DB\DB_Storage\vectors_hnswlib.bin"
-    dim = 384
-
+    index_path = r"D:\Rag-Vector-DB\DB_Storage\vectors_faiss.index"
     content = load_content(content_path)
-    index = load_hnswlib_index(index_path, dim)
+    index = load_faiss_index(index_path)
     return sentence_model, content, index
 
-
-if __name__ == "__main__":
+async def main():
     if len(sys.argv) > 1:
         query = sys.argv[1]
         try:
             sentence_model, content, index = initialize_system()
-            result = query_system(query, sentence_model, index, content)
+            result = await query_system(query, sentence_model, index, content)
             print(result)
         except RuntimeError as e:
             print(e)
     else:
         print("Please provide a query as a command-line argument.")
+
+if __name__ == "__main__":
+    asyncio.run(main())

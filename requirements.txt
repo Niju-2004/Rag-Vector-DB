@@ -5,6 +5,7 @@ numpy==1.24.2
 sentence-transformers==2.2.2
 torch==1.13.1
 google-generativeai==0.1.0
+<<<<<<< HEAD
 python-dotenv
 gunicorn==20.1.0
 mistralai
@@ -12,3 +13,8 @@ faiss-cpu==1.7.2
 faiss-gpu
 python-dotenv==0.19.2
 requests==2.26.0
+=======
+faiss-cpu==1.7.2
+googletrans==4.0.0-rc1
+matplotlib==3.5.1
+>>>>>>> df316526c081c23f2c08daa2aab4c38767ef3e26

@@ -13,6 +13,7 @@ load_dotenv(dotenv_path=dotenv_path)
  
 
 
+<<<<<<< HEAD
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 
@@ -20,6 +21,11 @@ logging.basicConfig(level=logging.INFO)
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))  # Replace with your actual API key
 
 # Generation settings
+=======
+api_key = "hasdfghjkoijhvergnuygfdkoihgfxdzsdxfcgvhbn,.,,YYYYUIIIm,"
+
+genai.configure(api_key=api_key)
+>>>>>>> df316526c081c23f2c08daa2aab4c38767ef3e26
 generation_config = {
     "temperature": 0.9,
     "top_p": 1,
@@ -74,6 +80,7 @@ def generate_gemini_response(results):
 
 # This block will only run if model.py is executed directly (i.e., not imported by app.py)
 if __name__ == "__main__":
+<<<<<<< HEAD
     user_query = input("Enter your query: ")
 
     # Load FAISS index and content data
@@ -93,3 +100,6 @@ if __name__ == "__main__":
 
     print("\n🌿 **Veterinary Chatbot Response:**")
     print(response)
+=======
+    asyncio.run(main())
+>>>>>>> df316526c081c23f2c08daa2aab4c38767ef3e26

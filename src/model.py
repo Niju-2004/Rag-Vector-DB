@@ -5,12 +5,19 @@ import numpy as np
 import logging
 from sentence_transformers import SentenceTransformer
 import google.generativeai as genai
+from dotenv import load_dotenv, dotenv_values 
+from pathlib import Path
+
+dotenv_path = Path('D:\Rag-Vector-DB\src\.env')
+load_dotenv(dotenv_path=dotenv_path)
+ 
+
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 
 # 1. Configure Gemini API
-genai.configure(api_key="AIzaSyDkpThDru0IGU_xWDl1NU1hjszPnKqSc5Y")  # Replace with your actual API key
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))  # Replace with your actual API key
 
 # Generation settings
 generation_config = {

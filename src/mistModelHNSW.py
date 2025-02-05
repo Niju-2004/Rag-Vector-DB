@@ -1,15 +1,21 @@
+import os
 import json
 import logging
 import sys
 import hnswlib  # ✅ Use HNSW instead of FAISS
 import requests
 from sentence_transformers import SentenceTransformer
+from dotenv import load_dotenv, dotenv_values 
+from pathlib import Path
+
+dotenv_path = Path('D:\Rag-Vector-DB\src\.env')
+load_dotenv(dotenv_path=dotenv_path)
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, filename="chatbot_errors.log", format="%(asctime)s - %(levelname)s - %(message)s")
 
 # Mistral API key
-MISTRAL_API_KEY = "5GnNzCryW9GDx7Zfbe04z5CovDlnl7Z3"
+MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")
 MODEL = "open-mistral-7b"
 
 # Mistral API URL

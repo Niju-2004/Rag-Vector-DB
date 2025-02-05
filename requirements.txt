@@ -8,9 +8,7 @@ google-generativeai==0.1.0
 python-dotenv
 gunicorn==20.1.0
 mistralai
-faiss-cpu==1.7.2
-faiss-gpu
-python-dotenv==0.19.2
+faiss-cpu==1.7.2python-dotenv==0.19.2
 requests==2.26.0
 faiss-cpu==1.7.2
 googletrans==4.0.0-rc1

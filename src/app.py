@@ -41,8 +41,14 @@ def ask():
         # Initialize system (loading models and data)
         sentence_model, content, index = model.initialize_system()
 
+        # Create a new event loop explicitly for the current request
+        loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
+
         # Process query and get response using Gemini
-        response, indices, distances, relevant_info = model.query_system(user_query, sentence_model, index, content)
+        response, indices, distances, relevant_info = loop.run_until_complete(
+            model.query_system(user_query, sentence_model, index, content)
+        )  # Use run_until_complete to run the async function
         
         # Return response in a structured way
         return jsonify({'response': {'title': '', 'causes': '', 'treatment': response}})
@@ -50,6 +56,7 @@ def ask():
     except Exception as e:
         logging.error(f"Error processing query: {e}")
         return jsonify({'response': f"An error occurred: {str(e)}"}), 500
+
 
 @app.route('/feedback', methods=['POST'])
 def feedback():

@@ -1450,3 +1450,618 @@ INFO:werkzeug:192.168.43.40 - - [28/Jan/2025 07:17:00] "[36mGET /static/styles.
 INFO:werkzeug:192.168.43.40 - - [28/Jan/2025 07:17:00] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
 INFO:werkzeug:192.168.43.40 - - [28/Jan/2025 07:17:00] "[36mGET /static/Untitled%20design.png HTTP/1.1[0m" 304 -
 INFO:werkzeug:192.168.43.40 - - [28/Jan/2025 07:17:07] "POST /feedback HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.137.75:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:192.168.137.75 - - [28/Jan/2025 14:50:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.75 - - [28/Jan/2025 14:50:06] "GET /static/scripts.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.75 - - [28/Jan/2025 14:50:06] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.75 - - [28/Jan/2025 14:50:06] "GET /static/Untitled%20design.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.75 - - [28/Jan/2025 14:50:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.75 - - [28/Jan/2025 14:50:56] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.75 - - [28/Jan/2025 14:52:27] "POST /ask HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.75 - - [28/Jan/2025 14:52:53] "POST /feedback HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.137.99:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:192.168.137.99 - - [29/Jan/2025 10:03:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.99 - - [29/Jan/2025 10:03:45] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.99 - - [29/Jan/2025 10:03:45] "GET /static/scripts.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.99 - - [29/Jan/2025 10:03:45] "GET /static/Untitled%20design.png HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.99 - - [29/Jan/2025 10:03:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.99 - - [29/Jan/2025 10:03:51] "POST /feedback HTTP/1.1" 200 -
+ERROR:root:Error processing query: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)
+INFO:werkzeug:192.168.137.99 - - [29/Jan/2025 10:05:24] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://172.16.3.45:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:172.16.3.45 - - [29/Jan/2025 13:47:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.16.3.45 - - [29/Jan/2025 13:47:03] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:172.16.3.45 - - [29/Jan/2025 13:47:03] "GET /static/scripts.js HTTP/1.1" 200 -
+INFO:werkzeug:172.16.3.45 - - [29/Jan/2025 13:47:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.137.99:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:192.168.137.99 - - [29/Jan/2025 14:01:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.99 - - [29/Jan/2025 14:01:20] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.99 - - [29/Jan/2025 14:01:20] "GET /static/scripts.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.99 - - [29/Jan/2025 14:01:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.99 - - [29/Jan/2025 14:03:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.99 - - [29/Jan/2025 14:03:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.137.99 - - [29/Jan/2025 14:03:31] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\transformers\\tokenization_utils_base.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+ERROR:root:Error processing query: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)
+INFO:werkzeug:192.168.137.99 - - [29/Jan/2025 14:04:32] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.137.99 - - [29/Jan/2025 14:06:03] "POST /feedback HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.99 - - [29/Jan/2025 14:06:16] "POST /feedback HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.137.99:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:192.168.137.99 - - [29/Jan/2025 14:08:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.99 - - [29/Jan/2025 14:08:40] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.137.99 - - [29/Jan/2025 14:08:40] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.137.99:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:192.168.137.99 - - [29/Jan/2025 14:44:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.99 - - [29/Jan/2025 14:44:11] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.137.99 - - [29/Jan/2025 14:44:11] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.137.99:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:192.168.137.99 - - [29/Jan/2025 14:52:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.99 - - [29/Jan/2025 14:52:06] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.99 - - [29/Jan/2025 14:52:06] "GET /static/scripts.js HTTP/1.1" 200 -
+ERROR:root:Error processing query: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1000)
+INFO:werkzeug:192.168.137.99 - - [29/Jan/2025 14:52:31] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.137.99:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:192.168.137.99 - - [30/Jan/2025 09:06:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.99 - - [30/Jan/2025 09:06:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.137.99 - - [30/Jan/2025 09:06:23] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.137.99 - - [30/Jan/2025 09:06:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.99 - - [30/Jan/2025 09:06:51] "[31m[1mPOST /ask HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'C:\\Python312\\Lib\\site-packages\\transformers\\tokenization_utils_base.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug: * Detected change in 'D:\\Rag-Vector-DB\\src\\vectorDB.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.137.101:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:192.168.137.101 - - [30/Jan/2025 10:04:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.101 - - [30/Jan/2025 10:04:38] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.101 - - [30/Jan/2025 10:04:38] "GET /static/scripts.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.101 - - [30/Jan/2025 10:04:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.101 - - [30/Jan/2025 10:05:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.101 - - [30/Jan/2025 10:05:56] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.101 - - [30/Jan/2025 10:05:56] "GET /static/scripts.js HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.137.87:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:192.168.137.87 - - [30/Jan/2025 10:33:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.87 - - [30/Jan/2025 10:33:11] "GET /static/scripts.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.87 - - [30/Jan/2025 10:33:11] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.87 - - [30/Jan/2025 10:33:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.87 - - [30/Jan/2025 10:37:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.87 - - [30/Jan/2025 10:37:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.137.87 - - [30/Jan/2025 10:37:37] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.137.87:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 100-927-211
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.137.75:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-104-782
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.137.75:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 143-104-782
+INFO:werkzeug:192.168.137.75 - - [31/Jan/2025 13:18:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.75 - - [31/Jan/2025 13:18:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.75 - - [31/Jan/2025 13:18:55] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.75 - - [31/Jan/2025 13:18:55] "GET /static/scripts.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.75 - - [31/Jan/2025 13:18:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.43.40:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 733-937-419
+INFO:werkzeug:192.168.43.40 - - [31/Jan/2025 23:48:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [31/Jan/2025 23:48:23] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [31/Jan/2025 23:48:23] "GET /static/scripts.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [31/Jan/2025 23:48:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6789
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6789
+DEBUG:root:Content Loaded Successfully
+DEBUG:root:FAISS Index Loaded Successfully
+DEBUG:httpcore.connection:connect_tcp.started host='translate.googleapis.com' port=443 local_address=None timeout=5.0 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001AA1C9BC4D0>
+DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x000001AA23E815D0> server_hostname='translate.googleapis.com' timeout=5.0
+DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001AA1CD50FE0>
+DEBUG:httpcore.http2:send_connection_init.started request=<Request [b'GET']>
+DEBUG:httpcore.http2:send_connection_init.complete
+DEBUG:httpcore.http2:send_request_headers.started request=<Request [b'GET']> stream_id=1
+DEBUG:hpack.hpack:Adding (b':method', b'GET') to the header table, sensitive:False, huffman:True
+DEBUG:hpack.hpack:Encoding 2 with 7 bits
+DEBUG:hpack.hpack:Adding (b':authority', b'translate.googleapis.com') to the header table, sensitive:False, huffman:True
+DEBUG:hpack.hpack:Encoding 1 with 6 bits
+DEBUG:hpack.hpack:Encoding 17 with 7 bits
+DEBUG:hpack.hpack:Adding (b':scheme', b'https') to the header table, sensitive:False, huffman:True
+DEBUG:hpack.hpack:Encoding 7 with 7 bits
+DEBUG:hpack.hpack:Adding (b':path', b'/translate_a/single?client=gtx&sl=auto&tl=en&hl=en&dt=at&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&ie=UTF-8&oe=UTF-8&otf=1&ssel=0&tsel=0&tk=xxxx&q=my+goat+has+digestive+issues') to the header table, sensitive:False, huffman:True
+DEBUG:hpack.hpack:Encoding 4 with 6 bits
+DEBUG:hpack.hpack:Encoding 142 with 7 bits
+DEBUG:hpack.hpack:Adding (b'accept', b'*/*') to the header table, sensitive:False, huffman:True
+DEBUG:hpack.hpack:Encoding 19 with 6 bits
+DEBUG:hpack.hpack:Encoding 3 with 7 bits
+DEBUG:hpack.hpack:Adding (b'accept-encoding', b'gzip, deflate') to the header table, sensitive:False, huffman:True
+DEBUG:hpack.hpack:Encoding 16 with 7 bits
+DEBUG:hpack.hpack:Adding (b'user-agent', b'Mozilla/5.0 (Windows NT 10.0; Win64; x64)') to the header table, sensitive:False, huffman:True
+DEBUG:hpack.hpack:Encoding 58 with 6 bits
+DEBUG:hpack.hpack:Encoding 32 with 7 bits
+DEBUG:hpack.hpack:Encoded header block to b"\x82A\x91M\x83\xa9\x14\r%^c\x9ej\n:\xcc\x85\xc8z\x7f\x87D\xff\x0fa6\x0e\xa4P4\x96!\xb0\x83U5\x05\xff\tA\x8bR`\x99>~\x11D\x03\xb5'\xf8M\x10\x16\xaf\x89\xe8\x80\xb5|H\x98\x06\x9f\x89\x13\x04r|H\x98\x0b\xe7\xe2D\xc1D\x9f\x12&\nd\xf8\x910v \xfe$L\x16x\xf8\x910YO\xc4\x89\x81\x08\xf8\x910'\xe0\xc5\x83\x86\xfc+=\xf0r\xc1\xc3~\x15\x9e\xf8:e\x80?\x08Ah\x80\x1f\tAh\x80\x1f\t\xeb\x07\x9f>|\xfcv\x82\x9f_\xeec\x8d?\xeeq\xa3\xfd\xc8i\x8a\x84\x9b\xb9\x7f\xd9\x90\x8bJ\x8fS\x83\xf9c\xe7\x90z\xa0\xd0\x7ff\xa2\x81\xb0\xda\xe0S\xfa\xe4j\xa4?\x84)\xa7z\x81\x02\xe0\xfbS\x91\xaaq\xaf\xb5<\xb8\xd7\xf7"
+DEBUG:httpcore.http2:send_request_headers.complete
+DEBUG:httpcore.http2:send_request_body.started request=<Request [b'GET']> stream_id=1
+DEBUG:httpcore.http2:send_request_body.complete
+DEBUG:httpcore.http2:receive_response_headers.started request=<Request [b'GET']> stream_id=1
+DEBUG:httpcore.http2:receive_remote_settings.started
+DEBUG:httpcore.http2:receive_remote_settings.complete return_value=<RemoteSettingsChanged changed_settings:{ChangedSetting(setting=3, original_value=None, new_value=100), ChangedSetting(setting=4, original_value=65535, new_value=1048576), ChangedSetting(setting=6, original_value=None, new_value=65536)}>
+DEBUG:hpack.hpack:Decoding b'\x88_\x96\x1du\xd0b\r&=LtA\xea\xfbP\x93\x8e\xc4\x150Z\x99V{@\x90\xf2\xb1\x0fRKRVO\xaa\xca\xb1\xebI\x8fR?\x85\xa8\xe8\xa8\xd2\xcbX\xa1\xa8\xeb\x10d\x9c\xbfJTu\x90\x93\xd8_\xa5)\x1f\x95\x871`\x07\xd2\x94\xda\x84\xada{\x8e\x83H4\x97@\x85\xae\xc1\xcdH\xff\x86\xa8\xeb\x10d\x9c\xbfd\x96\xd0z\xbe\x94\x00T\xca:\x94\x0b\xef\x81@\x02\xe0\x01p\x00S\x16\x8d\xff\x0f\x12\x96\xc3a\xbe\x94d*e\x1dJ\x08\x02m@\xbdpN\xdc\x00\x94\xc5\xa3\x7fY\xad\x1aR2OIjO\xda\x92\x9a\x82\xd4:K\x07\xf3\xd1\x07\xa9t\xf9O\xf3\xf6\xa4\xa6\xa0\xb5\x0e\x92\xfc\xc1\xc3~\x15\x9e\xff_\xeb\xa2\x0fR\xe9\xf2\x9f@\x8d\xac\xb6Rd \xc7\xa9\x0bVz\x0cO_\xff\x02$\xebZ5\x87a\'\x83\xe7\xe9BN\xb5\xa3Z3&\xa2\xa1\x10|\xfd(I\xd6\xb4kKm\x14-\xdc\xb6 \xc7\xaa\x0f\x9f\xa5\t:\xd6\x8dim\xa2\x85\xbb\x96\xc4\x18\xf5-A\x90\x98>~\x94$\xebZ5\xa9<\x85\xa2\x0f\x9f\xa5\t:\xd6\x8do\x07\xf0\xe3P|\xfd(I\xd6\xb4kJ{)ZQ\x91\'\xb1\x10|\xfd(I\xd6\xb4kW@\xd3)\xec\xa6\x0f\x9f\xa5\t:\xd6\x8dj\xe8\x1ae=\x94\xad\xdc\xb6 \xc7\xaa\x0f\x9f@\x90!\xeaIjJ\xc8)-\xb0\xc9\xf4\xb5g\xa0\xc4\xf5\xb7\xb0\xbd\xad5\x85Y6Z\x84\x96E\x93\xea\xb2\xa1iOb\x9f\xe9\x04\xb0\xd5\xa7\xfd}\xd8Z\xcfbV\xb6\xc3(\xc4Lo\xb0u"\x81\xa4\xb0\xd6liMl\x11\x15\xd8Z\xcfb\x7f~\xff\x00A,5iY\x16\x11O\xf5ak=\x89Y\x03\xa6\xba\x0b\xfe\x94\xffU\x1e\xa2\x15a\xad\x85\xbd{\x83\x82\xfcg\'\x11\xf6z\xc7y\xd9\xe3\xc7\xfaS\xfd[R\x07)V5T\x1a\xa2\xff\xaf\xb3\xc7\xd0\xa4J\xc8\xb0\x8a\x7f\xaa\x8fQ\x7f\xd7\xdccAV\xb6\xc3)\xfe\x90Z%\xff_v\x16\xb3\xd8\x95\xad\xb0\xca1\x13\x1b\xec\x1dH\xa0i,5\x9b\x1aS[\x04Ev\x16\xb3\xd8\x9f\xbf\x07\xb3\xa9lY\x16\x11O\xf4\x82\xd1/\xfa@\x94%\x87B\x16=\x86\x98\xd5-aP{l!V\xac\xf4\x18\x9e\xbf\x89%\x87B\x16=\x86\x98\xd5\x7f@\x92%\x87B\x16=\x86\x98\xd5,z\xcbQlZ\xb3\xd0bz\x88@\xe9*\xc7\xb0\xd3\x1a\xaf@\x86\x19\x08Z\xd2\xb1\'\xff\x13\xdcR-{\x1a\xdc!Z\x1b\t?\xd2\x9b\x8aE\xafc[\x84+]2j*\x11\xf4\xa6\xe2\x91k\xd8\xd6\xe1\n\xd8m\xa2\x85\xb8\x96\xc4\x18\xf5})\xb8\xa4Z\xf65\xb8B\xb6\x1bh\xa1n%\xb1\x06=Kg2\x13\xf4\xa6\xe2\x91k\xd8\xd6\xe1\n\xda\x0f!h\xfaSqH\xb5\xeckp\x85nG\xe4\xe3_Jn)\x16\xbd\x8dn\x10\xad\x84\xf6R\xb6\x11\x91\'\xb1\x1fJn)\x16\xbd\x8dn\x10\xad\xae\x81\xa6S\xd9O\xd2\x9b\x8aE\xafc[\x84+k\xa0i\x94\xf6R\xb7\x12\xd8\x83\x1e\xafT\x01*@\x8e\xb0\xb5\x9e\xc4\x9a\xa9\x96-RVsT\x94\x7f\xf3\x90\xb2\x8e\xda\x13\x07\xf2\xc4Lo\xb0u"\x81\xa4\xb0\xd6liMlx,kXZ\xcfbQ\xfe\x10\xf5$\xbeS\x01r\xfb\xe8\xd2q\x9b\xad9\xfc\x03-\xd3s\xc2W<\x9a\xcc\x1e\xe5\xc2\x97\xffH\xfcp\xe4\xfc\x93\xba\xd98\x07.oF[F\x7fTf\xf7{\xbe\xad\xdb\xbc\xe5\xcf\xc1\xa4\xe6\xea\x84\x9b\xa1=h\xbf\x90:/\xee\xf4\x1b\xfa\xbc\x1a\xf3\xde!\x86\xef[6\xec\xf7\xfc\xffv\x03ESF@\x8c\xf2\xb7\x94!j\xec:JD\x98\xf5\x7f\x010@\x8b\xf2\xb4\xb6\x0e\x92\xacz\xd2c\xd4\x8f\x89\xdd\x0e\x8c\x1a\xb6\xe4\xc5\x93O@\x85\x1d\tY\x1d\xc9\xa4\x9d\x98?\x9b\x8d4\xcf\xf3\xf6\xa5#\x80M\xbe \x00\x1fS\xb2\xb0\x9f\x83\xf9\xb8\xd3L\xff?jR8\x04\xdb\xe2\x00\x01R\x83\xa8\xf5\x17{\x8b\x84\x84-i[\x05D<\x86\xaao'
+DEBUG:hpack.hpack:Decoded 8, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b':status', b'200'), consumed 1
+DEBUG:hpack.hpack:Decoded 31, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 22, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'content-type', b'application/json; charset=utf-8'), total consumed 24 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 16, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 5, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'x-content-type-options', b'nosniff'), total consumed 24 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 24, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 33, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'cache-control', b'no-cache, no-store, max-age=0, must-revalidate'), total consumed 35 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 5, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 6, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'pragma', b'no-cache'), total consumed 14 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 36, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 22, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'expires', b'Mon, 01 Jan 1990 00:00:00 GMT'), total consumed 24 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 33, consumed 2 bytes
+DEBUG:hpack.hpack:Decoded 22, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'date', b'Fri, 31 Jan 2025 18:27:02 GMT'), total consumed 25 bytes, indexed False
+DEBUG:hpack.hpack:Decoded 25, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 45, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'content-disposition', b'attachment; filename="json.txt"; filename*=UTF-8\'\'json.txt'), total consumed 47 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 13, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 129, consumed 2 bytes
+DEBUG:hpack.hpack:Decoded (b'permissions-policy', b'ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*'), total consumed 146 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 16, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 55, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'content-security-policy', b"require-trusted-types-for 'script';report-uri /_/TranslateApiHttp/cspreport"), total consumed 74 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 62, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 127, consumed 2 bytes
+DEBUG:hpack.hpack:Decoded (b'content-security-policy', b"script-src 'report-sample' 'nonce-a-F5PS1EDbocVaq8r7Yrww' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/TranslateApiHttp/cspreport;worker-src 'self'"), total consumed 130 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 20, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 9, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'cross-origin-resource-policy', b'cross-origin'), total consumed 32 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 18, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 8, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'cross-origin-opener-policy', b'same-origin'), total consumed 29 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 6, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 146, consumed 2 bytes
+DEBUG:hpack.hpack:Decoded (b'accept-ch', b'Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version'), total consumed 156 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 20, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 1, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'access-control-allow-origin', <memory at 0x000001AA23E30580>), total consumed 3 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 14, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 115, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'reporting-endpoints', b'default="/_/TranslateApiHttp/web-reports?context=eJzj4tHikmLw0JBiYFe6xirEzfFt9Zc9bAIXdv-IU1JKyi-MLylKzCvOSSxJLU4tKkstijcyMDI1MDSy1DOwiC8wAABkrRQz"'), total consumed 132 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 54, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 3, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'server', <memory at 0x000001AA23E30400>), total consumed 5 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 12, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 1, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'x-xss-protection', <memory at 0x000001AA23E30A00>), total consumed 16 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 11, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 9, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'x-frame-options', b'SAMEORIGIN'), total consumed 23 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 5, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 36, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'alt-svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), total consumed 44 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 18, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 3, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'accept-ranges', b'none'), total consumed 5 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 59, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 11, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'vary', b'Accept-Encoding'), total consumed 13 bytes, indexed True
+DEBUG:httpcore.http2:receive_response_headers.complete return_value=(200, [(b'content-type', b'application/json; charset=utf-8'), (b'x-content-type-options', b'nosniff'), (b'cache-control', b'no-cache, no-store, max-age=0, must-revalidate'), (b'pragma', b'no-cache'), (b'expires', b'Mon, 01 Jan 1990 00:00:00 GMT'), (b'date', b'Fri, 31 Jan 2025 18:27:02 GMT'), (b'content-disposition', b'attachment; filename="json.txt"; filename*=UTF-8\'\'json.txt'), (b'permissions-policy', b'ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*'), (b'content-security-policy', b"require-trusted-types-for 'script';report-uri /_/TranslateApiHttp/cspreport"), (b'content-security-policy', b"script-src 'report-sample' 'nonce-a-F5PS1EDbocVaq8r7Yrww' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/TranslateApiHttp/cspreport;worker-src 'self'"), (b'cross-origin-resource-policy', b'cross-origin'), (b'cross-origin-opener-policy', b'same-origin'), (b'accept-ch', b'Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version'), (b'access-control-allow-origin', b'*'), (b'reporting-endpoints', b'default="/_/TranslateApiHttp/web-reports?context=eJzj4tHikmLw0JBiYFe6xirEzfFt9Zc9bAIXdv-IU1JKyi-MLylKzCvOSSxJLU4tKkstijcyMDI1MDSy1DOwiC8wAABkrRQz"'), (b'server', b'ESF'), (b'x-xss-protection', b'0'), (b'x-frame-options', b'SAMEORIGIN'), (b'alt-svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'accept-ranges', b'none'), (b'vary', b'Accept-Encoding')])
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=en&hl=en&dt=at&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&ie=UTF-8&oe=UTF-8&otf=1&ssel=0&tsel=0&tk=xxxx&q=my+goat+has+digestive+issues "HTTP/2 200 OK"
+DEBUG:httpcore.http2:receive_response_body.started request=<Request [b'GET']> stream_id=1
+DEBUG:httpcore.http2:receive_response_body.complete
+DEBUG:httpcore.http2:response_closed.started stream_id=1
+DEBUG:httpcore.http2:response_closed.complete
+DEBUG:root:Query Embedding Shape: (1, 384)
+DEBUG:asyncio:Using proactor: IocpProactor
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): huggingface.co:443
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "HEAD /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2/revision/main HTTP/1.1" 200 6789
+DEBUG:urllib3.connectionpool:https://huggingface.co:443 "GET /api/models/sentence-transformers/all-MiniLM-L6-v2 HTTP/1.1" 200 6789
+DEBUG:root:Content Loaded Successfully
+DEBUG:root:FAISS Index Loaded Successfully
+DEBUG:httpcore.connection:connect_tcp.started host='translate.googleapis.com' port=443 local_address=None timeout=5.0 socket_options=None
+DEBUG:httpcore.connection:connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001EF26A5DC40>
+DEBUG:httpcore.connection:start_tls.started ssl_context=<ssl.SSLContext object at 0x000001EF269915D0> server_hostname='translate.googleapis.com' timeout=5.0
+DEBUG:httpcore.connection:start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x000001EF1F50C320>
+DEBUG:httpcore.http2:send_connection_init.started request=<Request [b'GET']>
+DEBUG:httpcore.http2:send_connection_init.complete
+DEBUG:httpcore.http2:send_request_headers.started request=<Request [b'GET']> stream_id=1
+DEBUG:hpack.hpack:Adding (b':method', b'GET') to the header table, sensitive:False, huffman:True
+DEBUG:hpack.hpack:Encoding 2 with 7 bits
+DEBUG:hpack.hpack:Adding (b':authority', b'translate.googleapis.com') to the header table, sensitive:False, huffman:True
+DEBUG:hpack.hpack:Encoding 1 with 6 bits
+DEBUG:hpack.hpack:Encoding 17 with 7 bits
+DEBUG:hpack.hpack:Adding (b':scheme', b'https') to the header table, sensitive:False, huffman:True
+DEBUG:hpack.hpack:Encoding 7 with 7 bits
+DEBUG:hpack.hpack:Adding (b':path', b'/translate_a/single?client=gtx&sl=auto&tl=en&hl=en&dt=at&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&ie=UTF-8&oe=UTF-8&otf=1&ssel=0&tsel=0&tk=xxxx&q=my+goat+has+digestive+issues') to the header table, sensitive:False, huffman:True
+DEBUG:hpack.hpack:Encoding 4 with 6 bits
+DEBUG:hpack.hpack:Encoding 142 with 7 bits
+DEBUG:hpack.hpack:Adding (b'accept', b'*/*') to the header table, sensitive:False, huffman:True
+DEBUG:hpack.hpack:Encoding 19 with 6 bits
+DEBUG:hpack.hpack:Encoding 3 with 7 bits
+DEBUG:hpack.hpack:Adding (b'accept-encoding', b'gzip, deflate') to the header table, sensitive:False, huffman:True
+DEBUG:hpack.hpack:Encoding 16 with 7 bits
+DEBUG:hpack.hpack:Adding (b'user-agent', b'Mozilla/5.0 (Windows NT 10.0; Win64; x64)') to the header table, sensitive:False, huffman:True
+DEBUG:hpack.hpack:Encoding 58 with 6 bits
+DEBUG:hpack.hpack:Encoding 32 with 7 bits
+DEBUG:hpack.hpack:Encoded header block to b"\x82A\x91M\x83\xa9\x14\r%^c\x9ej\n:\xcc\x85\xc8z\x7f\x87D\xff\x0fa6\x0e\xa4P4\x96!\xb0\x83U5\x05\xff\tA\x8bR`\x99>~\x11D\x03\xb5'\xf8M\x10\x16\xaf\x89\xe8\x80\xb5|H\x98\x06\x9f\x89\x13\x04r|H\x98\x0b\xe7\xe2D\xc1D\x9f\x12&\nd\xf8\x910v \xfe$L\x16x\xf8\x910YO\xc4\x89\x81\x08\xf8\x910'\xe0\xc5\x83\x86\xfc+=\xf0r\xc1\xc3~\x15\x9e\xf8:e\x80?\x08Ah\x80\x1f\tAh\x80\x1f\t\xeb\x07\x9f>|\xfcv\x82\x9f_\xeec\x8d?\xeeq\xa3\xfd\xc8i\x8a\x84\x9b\xb9\x7f\xd9\x90\x8bJ\x8fS\x83\xf9c\xe7\x90z\xa0\xd0\x7ff\xa2\x81\xb0\xda\xe0S\xfa\xe4j\xa4?\x84)\xa7z\x81\x02\xe0\xfbS\x91\xaaq\xaf\xb5<\xb8\xd7\xf7"
+DEBUG:httpcore.http2:send_request_headers.complete
+DEBUG:httpcore.http2:send_request_body.started request=<Request [b'GET']> stream_id=1
+DEBUG:httpcore.http2:send_request_body.complete
+DEBUG:httpcore.http2:receive_response_headers.started request=<Request [b'GET']> stream_id=1
+DEBUG:httpcore.http2:receive_remote_settings.started
+DEBUG:httpcore.http2:receive_remote_settings.complete return_value=<RemoteSettingsChanged changed_settings:{ChangedSetting(setting=3, original_value=None, new_value=100), ChangedSetting(setting=4, original_value=65535, new_value=1048576), ChangedSetting(setting=6, original_value=None, new_value=65536)}>
+DEBUG:hpack.hpack:Decoding b'\x88_\x96\x1du\xd0b\r&=LtA\xea\xfbP\x93\x8e\xc4\x150Z\x99V{@\x90\xf2\xb1\x0fRKRVO\xaa\xca\xb1\xebI\x8fR?\x85\xa8\xe8\xa8\xd2\xcbX\xa1\xa8\xeb\x10d\x9c\xbfJTu\x90\x93\xd8_\xa5)\x1f\x95\x871`\x07\xd2\x94\xda\x84\xada{\x8e\x83H4\x97@\x85\xae\xc1\xcdH\xff\x86\xa8\xeb\x10d\x9c\xbfd\x96\xd0z\xbe\x94\x00T\xca:\x94\x0b\xef\x81@\x02\xe0\x01p\x00S\x16\x8d\xff\x0f\x12\x96\xc3a\xbe\x94d*e\x1dJ\x08\x02m@\xbdpO\xdc\x0b\xeab\xd1\xbfY\xad\x1aR2OIjO\xda\x92\x9a\x82\xd4:K\x07\xf3\xd1\x07\xa9t\xf9O\xf3\xf6\xa4\xa6\xa0\xb5\x0e\x92\xfc\xc1\xc3~\x15\x9e\xff_\xeb\xa2\x0fR\xe9\xf2\x9f@\x90!\xeaIjJ\xc8)-\xb0\xc9\xf4\xb5g\xa0\xc4\xf5\xff\x01A,5iY\x16\x11O\xf5ak=\x89Y\x03\xa6\xba\x0b\xfe\x94\xffU\x1e\xa2\x15hm\xfc\xf5u\xf3\xc58tD\xee\x0f\xdd\xf9\xb1\xc33\xde?\xd2\x9f\xea\xda\x909J\xb1\xaa\xa0\xd5\x17\xfd}\x9e>\x85"VE\x84S\xfdTz\x8b\xfe\xbe\xe3\x1a\n\xb5\xb6\x19O\xf4\x82\xd1/\xfa\xfb\xb0\xb5\x9e\xc4\xadm\x86Q\x88\x98\xdf`\xeaE\x03Ia\xac\xd8\xd2\x9a\xd8"+\xb0\xb5\x9e\xc4\xfd\xf8=\x9dKb\xc8\xb0\x8a\x7f\xa4\x16\x89\x7f\xd7~\xb7\xb0\xbd\xad5\x85Y6Z\x84\x96E\x93\xea\xb2\xa1iOb\x9f\xe9\x04\xb0\xd5\xa7\xfd}\xd8Z\xcfbV\xb6\xc3(\xc4Lo\xb0u"\x81\xa4\xb0\xd6liMl\x11\x15\xd8Z\xcfb\x7f@\x92%\x87B\x16=\x86\x98\xd5,z\xcbQlZ\xb3\xd0bz\x88@\xe9*\xc7\xb0\xd3\x1a\xaf@\x86\x19\x08Z\xd2\xb1\'\xff\x13\xdcR-{\x1a\xdc!Z\x1b\t?\xd2\x9b\x8aE\xafc[\x84+]2j*\x11\xf4\xa6\xe2\x91k\xd8\xd6\xe1\n\xd8m\xa2\x85\xb8\x96\xc4\x18\xf5})\xb8\xa4Z\xf65\xb8B\xb6\x1bh\xa1n%\xb1\x06=Kg2\x13\xf4\xa6\xe2\x91k\xd8\xd6\xe1\n\xda\x0f!h\xfaSqH\xb5\xeckp\x85nG\xe4\xe3_Jn)\x16\xbd\x8dn\x10\xad\x84\xf6R\xb6\x11\x91\'\xb1\x1fJn)\x16\xbd\x8dn\x10\xad\xae\x81\xa6S\xd9O\xd2\x9b\x8aE\xafc[\x84+k\xa0i\x94\xf6R\xb7\x12\xd8\x83\x1e\xaf@\x94%\x87B\x16=\x86\x98\xd5-aP{l!V\xac\xf4\x18\x9e\xbf\x89%\x87B\x16=\x86\x98\xd5\x7f@\x8d\xac\xb6Rd \xc7\xa9\x0bVz\x0cO_\xff\x02$\xebZ5\x87a\'\x83\xe7\xe9BN\xb5\xa3Z3&\xa2\xa1\x10|\xfd(I\xd6\xb4kKm\x14-\xdc\xb6 \xc7\xaa\x0f\x9f\xa5\t:\xd6\x8dim\xa2\x85\xbb\x96\xc4\x18\xf5-A\x90\x98>~\x94$\xebZ5\xa9<\x85\xa2\x0f\x9f\xa5\t:\xd6\x8do\x07\xf0\xe3P|\xfd(I\xd6\xb4kJ{)ZQ\x91\'\xb1\x10|\xfd(I\xd6\xb4kW@\xd3)\xec\xa6\x0f\x9f\xa5\t:\xd6\x8dj\xe8\x1ae=\x94\xad\xdc\xb6 \xc7\xaa\x0f\x9fT\x01*@\x8e\xb0\xb5\x9e\xc4\x9a\xa9\x96-RVsT\x94\x7f\xf5\x90\xb2\x8e\xda\x13\x07\xf2\xc4Lo\xb0u"\x81\xa4\xb0\xd6liMlx,kXZ\xcfbQ\xfe\x10\xf5$\xbeS\x01r\xfb\xe8\xd2q\x9b\xad9|\x02\xbb\xa6\xe7\x84\xaey5\x98<E\x86/\x7f\xa4~8rg\xee\x97\x7f}\xe6\xdd\xd6\x8c\xbbe\xc5\x85\xfd\xd4e\x9f\xf2\xac\xbay\xf5\xa3\xb19Q\xbb\x97)\xf6\xf7\xfd\xc5w\xa8\xe9\xba\x7f\xdc\xd4U\xce\xee\x19y\xc3\x0c2:\x8e\x12\xec\xfe\x7fv\x03ESF@\x8c\xf2\xb7\x94!j\xec:JD\x98\xf5\x7f\x010@\x8b\xf2\xb4\xb6\x0e\x92\xacz\xd2c\xd4\x8f\x89\xdd\x0e\x8c\x1a\xb6\xe4\xc5\x93O@\x85\x1d\tY\x1d\xc9\xa4\x9d\x98?\x9b\x8d4\xcf\xf3\xf6\xa5#\x80M\xbe \x00\x1fS\xb2\xb0\x9f\x83\xf9\xb8\xd3L\xff?jR8\x04\xdb\xe2\x00\x01R\x83\xa8\xf5\x17{\x8b\x84\x84-i[\x05D<\x86\xaao'
+DEBUG:hpack.hpack:Decoded 8, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b':status', b'200'), consumed 1
+DEBUG:hpack.hpack:Decoded 31, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 22, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'content-type', b'application/json; charset=utf-8'), total consumed 24 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 16, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 5, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'x-content-type-options', b'nosniff'), total consumed 24 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 24, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 33, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'cache-control', b'no-cache, no-store, max-age=0, must-revalidate'), total consumed 35 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 5, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 6, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'pragma', b'no-cache'), total consumed 14 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 36, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 22, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'expires', b'Mon, 01 Jan 1990 00:00:00 GMT'), total consumed 24 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 33, consumed 2 bytes
+DEBUG:hpack.hpack:Decoded 22, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'date', b'Fri, 31 Jan 2025 18:29:19 GMT'), total consumed 25 bytes, indexed False
+DEBUG:hpack.hpack:Decoded 25, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 45, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'content-disposition', b'attachment; filename="json.txt"; filename*=UTF-8\'\'json.txt'), total consumed 47 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 16, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 128, consumed 2 bytes
+DEBUG:hpack.hpack:Decoded (b'content-security-policy', b"script-src 'report-sample' 'nonce-AuXyB9o_h1M_7EZTKHAg8w' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/TranslateApiHttp/cspreport;worker-src 'self'"), total consumed 148 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 62, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 55, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'content-security-policy', b"require-trusted-types-for 'script';report-uri /_/TranslateApiHttp/cspreport"), total consumed 57 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 18, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 8, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'cross-origin-opener-policy', b'same-origin'), total consumed 29 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 6, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 146, consumed 2 bytes
+DEBUG:hpack.hpack:Decoded (b'accept-ch', b'Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version'), total consumed 156 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 20, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 9, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'cross-origin-resource-policy', b'cross-origin'), total consumed 32 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 13, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 129, consumed 2 bytes
+DEBUG:hpack.hpack:Decoded (b'permissions-policy', b'ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*'), total consumed 146 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 20, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 1, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'access-control-allow-origin', <memory at 0x000001EF26940580>), total consumed 3 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 14, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 117, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'reporting-endpoints', b'default="/_/TranslateApiHttp/web-reports?context=eJzj4tHikmJw0pBiYFe6xirEw_F_zZc9bAILvt7ZzKSklJRfGF9SlJhXnJNYklqcWlSWWhRvZGBkamBoZKlnYBFfYAAAd7sUfQ"'), total consumed 134 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 54, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 3, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'server', <memory at 0x000001EF26940400>), total consumed 5 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 12, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 1, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'x-xss-protection', <memory at 0x000001EF26940A00>), total consumed 16 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 11, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 9, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'x-frame-options', b'SAMEORIGIN'), total consumed 23 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 5, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 36, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'alt-svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), total consumed 44 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 18, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 3, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'accept-ranges', b'none'), total consumed 5 bytes, indexed True
+DEBUG:hpack.hpack:Decoded 59, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded 11, consumed 1 bytes
+DEBUG:hpack.hpack:Decoded (b'vary', b'Accept-Encoding'), total consumed 13 bytes, indexed True
+DEBUG:httpcore.http2:receive_response_headers.complete return_value=(200, [(b'content-type', b'application/json; charset=utf-8'), (b'x-content-type-options', b'nosniff'), (b'cache-control', b'no-cache, no-store, max-age=0, must-revalidate'), (b'pragma', b'no-cache'), (b'expires', b'Mon, 01 Jan 1990 00:00:00 GMT'), (b'date', b'Fri, 31 Jan 2025 18:29:19 GMT'), (b'content-disposition', b'attachment; filename="json.txt"; filename*=UTF-8\'\'json.txt'), (b'content-security-policy', b"script-src 'report-sample' 'nonce-AuXyB9o_h1M_7EZTKHAg8w' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/TranslateApiHttp/cspreport;worker-src 'self'"), (b'content-security-policy', b"require-trusted-types-for 'script';report-uri /_/TranslateApiHttp/cspreport"), (b'cross-origin-opener-policy', b'same-origin'), (b'accept-ch', b'Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version'), (b'cross-origin-resource-policy', b'cross-origin'), (b'permissions-policy', b'ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*'), (b'access-control-allow-origin', b'*'), (b'reporting-endpoints', b'default="/_/TranslateApiHttp/web-reports?context=eJzj4tHikmJw0pBiYFe6xirEw_F_zZc9bAILvt7ZzKSklJRfGF9SlJhXnJNYklqcWlSWWhRvZGBkamBoZKlnYBFfYAAAd7sUfQ"'), (b'server', b'ESF'), (b'x-xss-protection', b'0'), (b'x-frame-options', b'SAMEORIGIN'), (b'alt-svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'accept-ranges', b'none'), (b'vary', b'Accept-Encoding')])
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=en&hl=en&dt=at&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&ie=UTF-8&oe=UTF-8&otf=1&ssel=0&tsel=0&tk=xxxx&q=my+goat+has+digestive+issues "HTTP/2 200 OK"
+DEBUG:httpcore.http2:receive_response_body.started request=<Request [b'GET']> stream_id=1
+DEBUG:httpcore.http2:receive_response_body.complete
+DEBUG:httpcore.http2:response_closed.started stream_id=1
+DEBUG:httpcore.http2:response_closed.complete
+DEBUG:root:Query Embedding Shape: (1, 384)
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO:root:Query: my goat has digestive issues
+INFO:root:Query embedding shape: (1, 384)
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=en&hl=en&dt=at&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&ie=UTF-8&oe=UTF-8&otf=1&ssel=0&tsel=0&tk=xxxx&q=my "HTTP/2 200 OK"
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=en&hl=en&dt=at&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&ie=UTF-8&oe=UTF-8&otf=1&ssel=0&tsel=0&tk=xxxx&q=my "HTTP/2 200 OK"
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:root:The app is running on http://192.168.43.40:343
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.43.40:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:root:The app is running on http://192.168.43.40:343
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 782-078-588
+INFO:werkzeug:192.168.43.40 - - [01/Feb/2025 07:17:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.43.40 - - [01/Feb/2025 07:17:39] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [01/Feb/2025 07:17:39] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.43.40 - - [01/Feb/2025 07:17:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:root:Error processing query: module 'model' has no attribute 'initialize_system'
+INFO:werkzeug:192.168.43.40 - - [01/Feb/2025 07:17:50] "[35m[1mPOST /ask HTTP/1.1[0m" 500 -
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=en&hl=en&dt=at&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&ie=UTF-8&oe=UTF-8&otf=1&ssel=0&tsel=0&tk=xxxx&q=my "HTTP/2 200 OK"
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=en&hl=en&dt=at&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&ie=UTF-8&oe=UTF-8&otf=1&ssel=0&tsel=0&tk=xxxx&q=my "HTTP/2 200 OK"
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=en&hl=en&dt=at&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&ie=UTF-8&oe=UTF-8&otf=1&ssel=0&tsel=0&tk=xxxx&q=my "HTTP/2 200 OK"
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=en&hl=en&dt=at&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&ie=UTF-8&oe=UTF-8&otf=1&ssel=0&tsel=0&tk=xxxx&q=my "HTTP/2 200 OK"
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:root:The app is running on http://192.168.137.49:343
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:343
+ * Running on http://192.168.137.49:343
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:root:The app is running on http://192.168.137.49:343
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 692-517-264
+INFO:werkzeug:192.168.137.49 - - [03/Feb/2025 09:23:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [03/Feb/2025 09:23:02] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [03/Feb/2025 09:23:02] "GET /static/scripts.js HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [03/Feb/2025 09:23:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.137.49 - - [03/Feb/2025 09:23:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [03/Feb/2025 09:23:10] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.137.49 - - [03/Feb/2025 09:23:10] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.137.49 - - [03/Feb/2025 09:23:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [03/Feb/2025 09:23:11] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.137.49 - - [03/Feb/2025 09:23:11] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.137.49 - - [03/Feb/2025 09:23:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.49 - - [03/Feb/2025 09:23:14] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.137.49 - - [03/Feb/2025 09:23:14] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=en&hl=en&dt=at&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&ie=UTF-8&oe=UTF-8&otf=1&ssel=0&tsel=0&tk=xxxx&q=eye "HTTP/2 200 OK"
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=en&hl=en&dt=at&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&ie=UTF-8&oe=UTF-8&otf=1&ssel=0&tsel=0&tk=xxxx&q=my "HTTP/2 200 OK"
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=en&hl=en&dt=at&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&ie=UTF-8&oe=UTF-8&otf=1&ssel=0&tsel=0&tk=xxxx&q=my "HTTP/2 200 OK"
+INFO:root:Detected language: en
+INFO:root:Query embedding shape: (1, 384)
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:httpx:HTTP Request: GET https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=en&hl=en&dt=at&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&ie=UTF-8&oe=UTF-8&otf=1&ssel=0&tsel=0&tk=xxxx&q=my "HTTP/2 200 OK"
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+ERROR:root:Language detection failed: 'coroutine' object has no attribute 'lang'
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+ERROR:root:Error generating content with Gemini: 'str' object has no attribute 'get'
+2025-02-04 21:41:50,687 - INFO - Use pytorch device_name: cuda
+2025-02-04 21:41:50,687 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-04 21:42:01,466 - INFO - FAISS Search Results: Indices=[[31 50 32]], Distances=[[0.89857996 0.90403205 0.91290534]]
+2025-02-04 21:42:01,466 - ERROR - Error generating response with Mistral: 'str' object has no attribute 'get'
+2025-02-04 21:43:15,792 - INFO - Use pytorch device_name: cuda
+2025-02-04 21:43:15,792 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-04 21:43:30,177 - INFO - FAISS Search Results: Indices=[[31 50 32]], Distances=[[0.89857996 0.90403205 0.91290534]]
+2025-02-04 21:43:30,177 - ERROR - Error generating response with Mistral: 'str' object has no attribute 'get'
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-04 21:56:51,316 - INFO - Use pytorch device_name: cuda
+2025-02-04 21:56:51,316 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-04 21:57:00,183 - INFO - FAISS Search Results: Indices=[[14 15 25]], Distances=[[0.8830615  0.89976686 1.0205277 ]]
+2025-02-04 21:57:00,183 - ERROR - Error generating response with Mistral: 'str' object has no attribute 'get'
+2025-02-04 22:00:33,980 - INFO - Use pytorch device_name: cuda
+2025-02-04 22:00:33,980 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-04 22:00:43,530 - INFO - FAISS Search Results: Indices=[[14 15 25]], Distances=[[0.8830615  0.89976686 1.0205277 ]]
+2025-02-04 22:00:43,530 - ERROR - Error generating response with Mistral: 'str' object has no attribute 'get'
+2025-02-04 22:02:01,734 - INFO - Use pytorch device_name: cuda
+2025-02-04 22:02:01,734 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-04 22:02:09,964 - INFO - FAISS Search Results: Indices=[[14 15 25]], Distances=[[0.8830615  0.89976686 1.0205277 ]]
+2025-02-04 22:02:09,964 - ERROR - Error generating response with Mistral: 'str' object has no attribute 'get'
+2025-02-04 22:03:38,155 - INFO - Use pytorch device_name: cuda
+2025-02-04 22:03:38,155 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-04 22:04:04,061 - INFO - FAISS Search Results: Indices=[[14 15 25]], Distances=[[0.8830615  0.89976686 1.0205277 ]]
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-05 05:56:38,143 - INFO - Use pytorch device_name: cuda
+2025-02-05 05:56:38,143 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-05 05:56:48,015 - INFO - FAISS Search Results: Indices=[[ 4 48 32]], Distances=[[1.1798697 1.1906807 1.2328302]]
+2025-02-05 06:01:31,140 - INFO - Use pytorch device_name: cuda
+2025-02-05 06:01:31,141 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-05 06:01:42,165 - INFO - FAISS Search Results: Indices=[[ 4 48 32]], Distances=[[1.1798697 1.1906807 1.2328302]]
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+ERROR:root:Error generating content with Gemini: 'str' object has no attribute 'get'
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+ERROR:root:Error generating content with Gemini: 'str' object has no attribute 'get'
+2025-02-05 06:32:50,011 - INFO - Use pytorch device_name: cuda
+2025-02-05 06:32:50,011 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-05 06:32:58,308 - INFO - HNSW Search Results: Indices=[[ 4 48 32]], Distances=[[0.58993477 0.5953404  0.616415  ]]
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+ERROR:root:Error generating content with Gemini: 'str' object has no attribute 'get'
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cuda
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+ERROR:root:Error generating content with Gemini: 'str' object has no attribute 'get'
+2025-02-05 09:11:11,327 - INFO - Use pytorch device_name: cuda
+2025-02-05 09:11:11,327 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-05 09:11:31,068 - INFO - Use pytorch device_name: cuda
+2025-02-05 09:11:31,068 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-05 09:11:37,105 - INFO - HNSW Search Results: Indices=[[28 27 26]], Distances=[[0.47680765 0.50433576 0.6595705 ]]
+2025-02-05 09:12:49,542 - INFO - Use pytorch device_name: cuda
+2025-02-05 09:12:49,542 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-02-05 09:13:00,290 - INFO - HNSW Search Results: Indices=[[28 27 26]], Distances=[[0.47680765 0.50433576 0.6595705 ]]

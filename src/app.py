@@ -9,7 +9,6 @@ app = Flask(__name__)
 
 logging.basicConfig(level=logging.INFO)
 
-# Dictionary to store translations
 translations = {
     'en': {
         'welcome_message': 'Welcome to the Veterinary Chatbot!',
@@ -17,7 +16,7 @@ translations = {
     },
     'ta': {
         'welcome_message': 'கால்நடை மருத்துவ அரட்டைப் பெட்டிக்கு வருக!',
-        'chatbot_description': 'கால்நடை பராமரிப்பு பற்றிய உங்கள் கேள்விகளுக்கு பதிலளிக்க நான் இங்கே இருக்கிறேன். துல்லியமான நோயறிதல் மற்றும் சரியான சிகிச்சை திட்டத்திற்கு ஒரு கால்நடை மருத்துவரை அணுகவும்.'
+        'chatbot_description': 'கால்நடை பராமரிப்பு பற்றிய உங்கள் கேள்விகளுக்கு பதிலளிக்க நான் இங்கே இருக்கிறேன். துல்லியமான நோயறிதல் மற்றும் சரியான சிகிச்சை திட்டத்திற்கு ஒரு கால்நடை மருத்தவரை அணுகவும்.'
     }
 }
 
@@ -30,14 +29,24 @@ def ask():
     try:
         data = request.json
         user_query = data.get('query')
+        
         if not user_query:
             return jsonify({'response': "No query provided!"}), 400
+        
         if hasattr(ask, 'previous_query') and ask.previous_query == user_query:
             return jsonify({'response': "Please enter a new query!"}), 400
+        
         ask.previous_query = user_query
+        
+        # Initialize system (loading models and data)
         sentence_model, content, index = model.initialize_system()
-        response = asyncio.run(model.query_system(user_query, sentence_model, index, content))
+
+        # Process query and get response using Gemini
+        response, indices, distances, relevant_info = model.query_system(user_query, sentence_model, index, content)
+        
+        # Return response in a structured way
         return jsonify({'response': {'title': '', 'causes': '', 'treatment': response}})
+    
     except Exception as e:
         logging.error(f"Error processing query: {e}")
         return jsonify({'response': f"An error occurred: {str(e)}"}), 500
@@ -50,10 +59,7 @@ def feedback():
         if not feedback:
             return jsonify({'success': False, 'message': "No feedback provided!"}), 400
         
-        # Get the current date and time
         current_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        
-        # Store the feedback with the current timestamp
         with open('feedback.txt', 'a') as f:
             f.write(f"{current_timestamp}: {feedback}\n")
         

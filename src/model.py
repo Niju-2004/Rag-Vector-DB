@@ -6,12 +6,9 @@ import logging
 import asyncio
 from sentence_transformers import SentenceTransformer
 import google.generativeai as genai
-from dotenv import load_dotenv, dotenv_values 
-from pathlib import Path
 from googletrans import Translator
 from dotenv import load_dotenv
 
-dotenv_path = Path('D:\Rag-Vector-DB\src\.env')
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 
@@ -22,24 +19,14 @@ load_dotenv(dotenv_path=dotenv_path)
 # Get GEMINI API key from environment
 GEMINI_API = os.getenv("GEMINI_API")
 
-<<<<<<< HEAD
-# Configure logging
-logging.basicConfig(level=logging.INFO)
 # Ensure API key is set before configuring Gemini API
 if not GEMINI_API:
     raise ValueError("Please set the GEMINI_API environment variable in your .env file.")
 
-# 1. Configure Gemini API
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))  # Replace with your actual API key
 # Configure Gemini API
 genai.configure(api_key=GEMINI_API)
 
 # Generation settings
-=======
-api_key = "hasdfghjkoijhvergnuygfdkoihgfxdzsdxfcgvhbn,.,,YYYYUIIIm,"
-
-genai.configure(api_key=api_key)
->>>>>>> df316526c081c23f2c08daa2aab4c38767ef3e26
 generation_config = {
     "temperature": 0.0,
     "top_p": 1,
@@ -86,7 +73,6 @@ def initialize_system():
         content = json.load(f)
     return sentence_model, content, index
 
-def query_system(user_query, sentence_model, index, content):
 async def query_system(user_query, sentence_model, index, content):
     """Process the user query, search FAISS, and generate response."""
     # Detect language of the query
@@ -131,14 +117,12 @@ def generate_gemini_response(results):
 
 # This block will only run if model.py is executed directly (i.e., not imported by app.py)
 if __name__ == "__main__":
-<<<<<<< HEAD
     user_query = input("Enter your query: ")
 
     # Load FAISS index and content data
     sentence_model, content, index = initialize_system()
 
     # Process the query
-    response, indices, distances, relevant_info = query_system(user_query, sentence_model, index, content)
     response, indices, distances, relevant_info = asyncio.run(query_system(user_query, sentence_model, index, content))
 
     # Print the FAISS index and distances, relevant content, and Gemini response
@@ -152,6 +136,3 @@ if __name__ == "__main__":
 
     print("\n🌿 **Veterinary Chatbot Response:**")
     print(response)
-=======
-    asyncio.run(main())
->>>>>>> df316526c081c23f2c08daa2aab4c38767ef3e26
